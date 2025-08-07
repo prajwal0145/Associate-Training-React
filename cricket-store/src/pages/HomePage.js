@@ -50,7 +50,7 @@ const HomePage = () => {
   };
 
   const getCategoryIcon = (slug) => {
-    const iconClass = "w-12 h-12 mx-auto text-blue-600";
+    const iconClass = "w-12 h-12 mx-auto text-primary-600";
     switch (slug) {
       case "cricket-bats":
         return (
@@ -373,9 +373,9 @@ const HomePage = () => {
             </div>
 
             <div className="text-center group">
-              <div className="w-16 h-16 mx-auto mb-6 bg-blue-100 rounded-full flex items-center justify-center group-hover:bg-blue-200 transition-colors duration-300">
+              <div className="w-16 h-16 mx-auto mb-6 bg-primary-100 rounded-full flex items-center justify-center group-hover:bg-primary-200 transition-colors duration-300">
                 <svg
-                  className="w-8 h-8 text-blue-600"
+                  className="w-8 h-8 text-primary-600"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"

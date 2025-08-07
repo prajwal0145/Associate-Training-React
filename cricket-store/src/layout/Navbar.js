@@ -65,7 +65,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center group">
-            <div className="text-2xl font-bold text-blue-600 group-hover:text-blue-700 transition-colors duration-200">
+            <div className="text-2xl font-bold text-primary-600 group-hover:text-primary-700 transition-colors duration-200">
               🏏 CricketStore
             </div>
           </Link>

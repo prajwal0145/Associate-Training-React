@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-blue-400">
+            <h3 className="text-xl font-bold mb-4 text-primary-400">
               CricketStore
             </h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
@@ -20,7 +20,7 @@ const Footer = () => {
                 href="https://facebook.com/cricketstore"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-300 hover:text-white hover:bg-blue-600 transition-all duration-300"
+                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-300 hover:text-white hover:bg-primary-600 transition-all duration-300"
                 aria-label="Follow us on Facebook"
               >
                 <svg
@@ -50,7 +50,7 @@ const Footer = () => {
                 href="https://twitter.com/cricketstore"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-300 hover:text-white hover:bg-blue-400 transition-all duration-300"
+                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-300 hover:text-white hover:bg-primary-400 transition-all duration-300"
                 aria-label="Follow us on Twitter"
               >
                 <svg

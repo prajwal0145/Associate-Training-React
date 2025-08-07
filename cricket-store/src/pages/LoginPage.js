@@ -72,11 +72,11 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-blue-100 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gradient-to-br from-primary-50 to-primary-100 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <div className="text-center">
           <Link to="/" className="inline-block">
-            <h1 className="text-4xl font-bold text-blue-600 mb-2 hover:text-blue-700 transition-colors duration-200">
+            <h1 className="text-4xl font-bold text-primary-600 mb-2 hover:text-primary-700 transition-colors duration-200">
               🏏 CricketStore
             </h1>
           </Link>
@@ -90,7 +90,7 @@ const LoginPage = () => {
             Don't have an account?{" "}
             <Link
               to="/register"
-              className="font-medium text-blue-600 hover:text-blue-700 transition-colors duration-200"
+              className="font-medium text-primary-600 hover:text-primary-700 transition-colors duration-200"
             >
               Create one here
             </Link>
@@ -173,7 +173,7 @@ const LoginPage = () => {
             <Button
               type="submit"
               disabled={isLoading}
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 transform hover:scale-[1.02] disabled:transform-none disabled:opacity-50"
+              className="w-full bg-primary-600 hover:bg-primary-700 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 transform hover:scale-[1.02] disabled:transform-none disabled:opacity-50"
             >
               {isLoading ? (
                 <div className="flex items-center justify-center">
@@ -251,20 +251,20 @@ const LoginPage = () => {
                   onClick={() =>
                     fillDemoAccount("admin@example.com", "admin123")
                   }
-                  className="w-full bg-blue-50 hover:bg-blue-100 border border-blue-200 rounded-lg px-4 py-3 text-sm transition-colors duration-200 group"
+                  className="w-full bg-primary-50 hover:bg-primary-100 border border-primary-200 rounded-lg px-4 py-3 text-sm transition-colors duration-200 group"
                 >
                   <div className="flex items-center justify-between">
                     <div className="text-left">
                       <div className="font-medium text-gray-900 flex items-center">
                         Demo Admin
-                        <span className="ml-2 px-2 py-0.5 bg-blue-100 text-blue-800 text-xs rounded-full">
+                        <span className="ml-2 px-2 py-0.5 bg-primary-100 text-primary-800 text-xs rounded-full">
                           Admin
                         </span>
                       </div>
                       <div className="text-gray-500">admin@example.com</div>
                     </div>
                     <svg
-                      className="w-4 h-4 text-blue-400 group-hover:text-blue-600"
+                      className="w-4 h-4 text-primary-400 group-hover:text-primary-600"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
