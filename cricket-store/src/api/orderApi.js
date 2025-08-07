@@ -3,9 +3,7 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 let mockOrders = [];
 
 export const orderApi = {
-  // Create order
   createOrder: async (orderData) => {
-    // eslint-disable-next-line no-undef
     await delay(1000);
 
     const newOrder = {
@@ -23,17 +21,13 @@ export const orderApi = {
     return { data: newOrder };
   },
 
-  // Get user orders
   getUserOrders: async (userId) => {
-    // eslint-disable-next-line no-undef
     await delay(400);
     const userOrders = mockOrders.filter((order) => order.userId === userId);
     return { data: userOrders };
   },
 
-  // Get order by ID
   getOrderById: async (orderId) => {
-    // eslint-disable-next-line no-undef
     await delay(300);
     const order = mockOrders.find((order) => order.id === parseInt(orderId));
     if (!order) {
