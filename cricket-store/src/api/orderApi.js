@@ -1,4 +1,6 @@
-let mockOrders = [];
+import { mockOrders } from "../data/mockData";
+
+const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 export const orderApi = {
   // Create order
