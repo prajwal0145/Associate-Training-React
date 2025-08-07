@@ -58,7 +58,8 @@ const HomePage = () => {
             className={iconClass}
             fill="currentColor"
             viewBox="0 0 24 24"
-            aria-hidden="true"
+            aria-label="Cricket Bats"
+            role="img"
           >
             <path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-9 16H3V5h9v14zm7-7h-5V5h5v7z" />
           </svg>
@@ -69,7 +70,8 @@ const HomePage = () => {
             className={iconClass}
             fill="currentColor"
             viewBox="0 0 24 24"
-            aria-hidden="true"
+            area-label="Helmets"
+            role="img"
           >
             <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
           </svg>
@@ -80,7 +82,8 @@ const HomePage = () => {
             className={iconClass}
             fill="currentColor"
             viewBox="0 0 24 24"
-            aria-hidden="true"
+            area-labels="Shoes"
+            role="img"
           >
             <path d="M2 18h20v2H2v-2zM13.6 16h6.8l-1.4-4.2c-.4-1.2-1.5-2-2.8-2H13c-.6 0-1.2-.4-1.6-.9L9.8 6.2c-.4-.5-1-.8-1.6-.8H2v2h6.2l1.6 2.4c.4.6 1 .9 1.6.9h1.2v5.3z" />
           </svg>
@@ -91,7 +94,7 @@ const HomePage = () => {
             className={iconClass}
             fill="currentColor"
             viewBox="0 0 24 24"
-            aria-hidden="true"
+            area-labels="Protective Gear"
           >
             <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" />
           </svg>
