@@ -67,14 +67,6 @@ const AppRoutes = () => {
         path="/orders"
         element={
           <ProtectedRoute>
-            <OrderDetailPage />
-          </ProtectedRoute>
-        }
-      />
-      <Route
-        path="/order/:id"
-        element={
-          <ProtectedRoute>
             <OrdersPage />
           </ProtectedRoute>
         }
