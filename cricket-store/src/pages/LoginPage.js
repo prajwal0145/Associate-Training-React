@@ -72,11 +72,11 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary-50 to-primary-100 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-blue-100 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <div className="text-center">
           <Link to="/" className="inline-block">
-            <h1 className="text-4xl font-bold text-primary-600 mb-2 hover:text-primary-700 transition-colors duration-200">
+            <h1 className="text-4xl font-bold text-blue-600 mb-2 hover:text-blue-700 transition-colors duration-200">
               🏏 CricketStore
             </h1>
           </Link>
