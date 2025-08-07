@@ -50,7 +50,7 @@ const HomePage = () => {
   };
 
   const getCategoryIcon = (slug) => {
-    const iconClass = "w-12 h-12 mx-auto text-primary-600";
+    const iconClass = "w-12 h-12 mx-auto text-blue-600";
     switch (slug) {
       case "cricket-bats":
         return (

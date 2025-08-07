@@ -90,7 +90,7 @@ const LoginPage = () => {
             Don't have an account?{" "}
             <Link
               to="/register"
-              className="font-medium text-primary-600 hover:text-primary-700 transition-colors duration-200"
+              className="font-medium text-blue-600 hover:text-blue-700 transition-colors duration-200"
             >
               Create one here
             </Link>
@@ -173,7 +173,7 @@ const LoginPage = () => {
             <Button
               type="submit"
               disabled={isLoading}
-              className="w-full bg-primary-600 hover:bg-primary-700 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 transform hover:scale-[1.02] disabled:transform-none disabled:opacity-50"
+              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 transform hover:scale-[1.02] disabled:transform-none disabled:opacity-50"
             >
               {isLoading ? (
                 <div className="flex items-center justify-center">
